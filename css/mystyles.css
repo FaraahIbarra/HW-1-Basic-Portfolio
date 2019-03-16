@@ -1,0 +1,136 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("images/full-bloom.png");
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+body{
+    color:#777777;
+}
+
+
+.myHeader {
+    background-color: #FFF;
+    border-bottom: 1px solid #ccc;
+}
+
+.tealdiv {
+    background-color: #4AAAA5;
+    color:white;
+    margin-left:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height:75px;
+    /* make the text valign middle - not working
+    vertical-align: middle;
+    */
+  
+}
+.myProfile {
+    background-color: #c0c0c0;
+    width: 500px;  
+    border: 1px solid #777777;
+    
+
+}
+
+.box-lg {
+    border: 1px solid #eee;
+    width: 100%;
+    background-color: #FFF; 
+    padding: 20px;
+    
+
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #777;;
+    text-align: center;
+    font-size: .8rem;
+    height:75px;
+    color:#CCC;
+    vertical-align: middle; /* why does this not work */
+    border-top: 8px solid #4AAAA5;
+
+  }
+
+  .profilePic {
+      width:100%;
+      float:left;
+      padding:25px;
+      
+  }
+
+.myNav-lg {
+    text-align: center;
+    margin-right:-20px;
+    /* make the text valign middle - not working
+    vertical-align: middle;
+    */
+}
+
+@media (min-width: 640px) {
+    .myNav-sm {
+        text-align:center;
+        /*margin:0px;*/
+    }
+    .tealdiv {
+        text-align:center;
+        /*margin:0px;*/
+       
+    }
+    .box-sm {
+        width: 100%;
+    }
+    .profilePic {
+        width:100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .myNav-md {
+        text-align:right;
+        margin-left:-20px;
+    }
+    .tealdiv {
+        text-align:left;
+        margin-left:20px;
+    }
+    .box-md {
+        width:75%;
+    }
+    .profilePic {
+        width:70%;
+    }
+}
+
+@media (min-width: 980px) {
+    .myNav-lg {
+        text-align:right;
+        margin-left:-20px;
+    }
+    .tealdiv {
+        text-align:left;
+        margin-left:20px;
+    }
+    .box-lg {
+        width:75%;
+    }
+    .profilePic {
+        width:70%;
+    }
+}
